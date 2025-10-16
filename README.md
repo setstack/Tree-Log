@@ -1,4 +1,4 @@
-# 🌳 Tree Logs
+# 🌳 Tree Log
 
 A beautiful, customizable tree logging function that displays data in a tree structure similar to `npm list`. Perfect for debugging, data visualization, and making your console output look amazing!
 

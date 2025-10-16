@@ -1,7 +1,7 @@
 {
   "name": "tree-log",
   "version": "1.0.0",
-  "description": "Custom console.log that looks good",
+  "description": "Custom tree logging package",
   "license": "ISC",
   "author": "setstack",
   "type": "commonjs",
