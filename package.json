@@ -1,0 +1,12 @@
+{
+  "name": "tree-log",
+  "version": "1.0.0",
+  "description": "Custom console.log that looks good",
+  "license": "ISC",
+  "author": "setstack",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test.js"
+  }
+}
