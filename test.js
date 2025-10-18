@@ -1,6 +1,6 @@
-const tree = require("./src/index.js");
+import tree from "./src/index.js";
 
-const package = {
+const packageJson = {
   name: "tree-log",
   version: "1.0.0",
   dependencies: {
@@ -39,7 +39,7 @@ const package = {
 
 // Test 1: Full object tree
 console.log("1. Package data tree:");
-tree(package);
+tree(packageJson);
 
 // Test 2: Simple object
 console.log("2. Simple object:");

@@ -102,9 +102,6 @@ function tree(data, options = {}) {
     }
   }
 
-  console.log("\n" + colorize("Tree Log:", "bright"));
-  console.log("─".repeat(50));
-
   if (typeof data === "object" && data !== null && !Array.isArray(data)) {
     const keys = Object.keys(data);
     if (keys.length === 0) {
@@ -123,8 +120,6 @@ function tree(data, options = {}) {
   } else {
     console.log(formatValue(data));
   }
-
-  console.log("─".repeat(50) + "\n");
 }
 
-module.exports = tree;
+export default tree;

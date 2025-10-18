@@ -1,11 +1,25 @@
 {
-  "name": "tree-log",
+  "name": "@setstack/tree-log",
   "version": "1.0.0",
   "description": "Custom tree logging package",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/setstack/tree-log.git"
+  },
+  "keywords": [
+    "tree",
+    "log",
+    "logging",
+    "console.log",
+    "tree-log"
+  ],
   "license": "ISC",
   "author": "setstack",
-  "type": "commonjs",
+  "type": "module",
   "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
   "scripts": {
     "test": "node test.js"
   }
