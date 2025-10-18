@@ -13,7 +13,7 @@ A beautiful, customizable tree logging function that displays data in a tree str
 ## 🚀 Installation
 
 ```bash
-npm install tree-log
+npm install @setstack/tree-log
 ```
 
 Or simply copy the `src/index.js` file to your project.
