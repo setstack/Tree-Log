@@ -84,8 +84,6 @@ tree(table);
 
 **Output:**
 ```
-Tree Log:
-──────────────────────────────────────────────────
 ├── name: "tree-log"
 ├── version: "1.0.0"
 ├── dependencies: {
@@ -103,7 +101,6 @@ Tree Log:
         └── monitoring: false
         }
     }
-──────────────────────────────────────────────────
 ```
 
 ### Array Data
